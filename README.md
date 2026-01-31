@@ -1,26 +1,38 @@
+![SlackLocalVibe logo](logo.png)
+
 # SlackLocalVibe for Codex / ClaudeCode
 
-## 機能
+## Features
 
-- Codex / ClaudeCode の結果を Slack DM に通知
-- Slack スレッド返信を CLI resume として実行
+- Send Codex / ClaudeCode results to Slack DM
+- Run Slack thread replies as CLI `resume`
 
-## 必要環境
+![SlackLocalVibe demo](demo.mp4)
+
+## Requirements
 
 - Node.js 18+
-- Slack App（Socket Mode）
+- Slack App (Socket Mode)
 
-## インストール
+## Install
 
-ユーザーが実行するのはこれだけです。（セットアップ・アップデート・テスト）  
-ウィザード内で `npm i -g slacklocalvibe` を実行します。
+This is the only command users run (setup, update, and test).  
+The wizard will run `npm i -g slacklocalvibe`.
 
 ```bash
 npx slacklocalvibe
 ```
 
-## 設定・ログ
+## Intro Tweet (Video)
 
-- 設定: `~/.config/slacklocalvibe/config.json`
-- ログ: `~/Library/Logs/slacklocalvibe/`
+```html
+<blockquote class="twitter-tweet">
+  <a href="https://x.com/Y20010920T/status/2017544598105821533?s=20">https://x.com/Y20010920T/status/2017544598105821533?s=20</a>
+</blockquote>
+```
+
+## Config & Logs
+
+- Config: `~/.config/slacklocalvibe/config.json`
+- Logs: `~/Library/Logs/slacklocalvibe/`
 
