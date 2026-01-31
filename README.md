@@ -1,4 +1,4 @@
-<img src="logo.png" alt="SlackLocalVibe logo" width="160">
+<img src="logo.png" alt="SlackLocalVibe logo" width="400">
 
 # SlackLocalVibe for Codex / ClaudeCode
 
@@ -7,7 +7,7 @@
 - Send Codex / ClaudeCode results to Slack DM
 - Run Slack thread replies as CLI `resume`
 
-<video src="demo.mp4" controls></video>
+<video src="/demo.mp4" controls></video>
 
 ## Requirements
 
