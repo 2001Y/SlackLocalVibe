@@ -1,0 +1,37 @@
+{
+  "name": "slacklocalvibe",
+  "version": "0.1.7",
+  "description": "SlackLocalVibe: Codex/Claude Code turn notifications and reply→resume bridge for Slack DM (Socket Mode)",
+  "bin": {
+    "slacklocalvibe": "src/cli.js"
+  },
+  "main": "src/cli.js",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {},
+  "keywords": [
+    "slack",
+    "cli",
+    "codex",
+    "claude",
+    "socket-mode"
+  ],
+  "author": "2001Y",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "@slack/socket-mode": "^2.0.5",
+    "@slack/web-api": "^7.13.0",
+    "commander": "^14.0.2",
+    "html-to-mrkdwn": "^3.0.0",
+    "marked": "^17.0.1",
+    "prompts": "^2.4.2"
+  }
+}
